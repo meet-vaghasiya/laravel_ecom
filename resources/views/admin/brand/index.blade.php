@@ -1,13 +1,7 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-    <div class="d-flex justify-content-between">       
-     <div class=""> All Brand<b></b></div>
-<b style="" class="text-right">
-  <span class="badge badge-info"></span>
-</div>
-   </h2>
-    </x-slot>
+@extends('admin.admin_master')
+
+@section('admin')
+    
 
 <div class="container mt-5">
 
@@ -110,4 +104,4 @@
 
 </div>
 
-</x-app-layout>
+@endsection

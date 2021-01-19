@@ -12,6 +12,5 @@ class MultipleImage extends Model
     protected $fillable = [
         'multi_image',
         
-    
     ];
 }
