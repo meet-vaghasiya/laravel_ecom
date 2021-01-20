@@ -52,3 +52,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::get('home/slider', 'App\Http\Controllers\SliderController@index')->name('home.slider');
 Route::get('add/slider', 'App\Http\Controllers\SliderController@addslider')->name('add.slider');
 Route::post('upload/slider', 'App\Http\Controllers\SliderController@uploadslider')->name('sliderdata');
+
+
+
+//about router
+Route::get('home/about', 'App\Http\Controllers\AboutController@index')->name('home.about');
+Route::get('add/about', 'App\Http\Controllers\AboutController@about')->name('home.about.add');
+Route::post('upload/about', 'App\Http\Controllers\AboutController@upload')->name('home.slider.upload');
+
